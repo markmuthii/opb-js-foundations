@@ -63,6 +63,10 @@ const selectedOption = "age";
 
 console.log(student2[selectedOption]);
 
+student2.age = 80;
+
+console.log(student2[selectedOption]);
+
 // We delete the age property from the object
 delete student2.age;
 
